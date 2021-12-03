@@ -4,7 +4,7 @@ class homeController{
     home(req, res, next){
         Product.find({})
             .then(Products=> res.render('nav/home', {
-                Products : mutilpleMongooseToObject(Products)
+                Products : mutilpleMongooseToObject(Products.slice(0,4))
             }))
             .catch(next)
     }

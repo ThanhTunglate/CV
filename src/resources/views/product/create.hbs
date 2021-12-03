@@ -14,38 +14,38 @@
 
 
 <div class="container">
-  <form method="post" action="/product/store">
+  <form method="POST" action="/product/store">
     <div class="form-group">
       <label>Name product</label>
-      <input type="text" class="form-control" id="name" placeholder="Enter name product">
+      <input type="text" class="form-control" id="name" name = "name"placeholder="Enter name product">
     </div>
     <div class="form-group">
       <label>Category</label>
-      <input type="text" class="form-control" id="category" placeholder="category">
+      <input type="text" class="form-control" id="category" name="category" placeholder="category">
     </div>
     <div class="form-group">
       <label>Price</label>
-      <input type="text" class="form-control" id="category">
+      <input type="text" class="form-control" id="price" name="price">
     </div>
     <div class="form-group">
       <label>Quantity</label>
-      <input type="text" class="form-control" id="category">
+      <input type="text" class="form-control" name="quantity">
     </div>
     <div class="form-group">
       <label>Manufactured</label>
-      <input type="text" class="form-control" id="category" value="Manufactured">
+      <input type="text" class="form-control" name="manufactured" value="Manufactured">
     </div>
     <div class="form-group">
       <label>Rate</label>
-      <input type="text" class="form-control" id="category" value="5">
+      <input type="text" class="form-control" name="rate" value="5">
     </div>
     <div class="form-group">
       <label>Sold</label>
-      <input type="text" class="form-control" id="category" value="1000">
+      <input type="text" class="form-control" name="sold" value="1000">
     </div>
     <div class="form-group">
       <label>IMG</label>
-      <input type="text" class="form-control" id="category">
+      <input type="text" class="form-control" name="img">
     </div>
     <button type="submit" class="btn btn-primary">ADD</button>
   </form>

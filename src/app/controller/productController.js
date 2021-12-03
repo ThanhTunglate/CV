@@ -35,8 +35,9 @@ class productController{
         res.render('product/create');
     }
     
-    delete(req, res, next){
-        res.render('product/product');
+    //POST
+    store(req, res, next){
+        res.json(req.body);
     }
     
 }
