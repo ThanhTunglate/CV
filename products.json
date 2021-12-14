@@ -1,0 +1,145 @@
+[{
+  "_id": {
+    "$oid": "619f2f55ccbda5a54e9801d5"
+  },
+  "name": "Bacardi 151",
+  "category": "Brandy",
+  "price": 120,
+  "quantity": 80,
+  "manufactured": "CMC",
+  "rate": 100,
+  "sold": 500,
+  "img": "images/prod-1.jpg"
+},{
+  "_id": {
+    "$oid": "619f4a2accbda5a54e9801d7"
+  },
+  "name": "Jim Beam Kentucky Straight",
+  "category": "Gin",
+  "price": 69,
+  "quantity": 80,
+  "manufactured": "CMC",
+  "rate": 100,
+  "sold": 500,
+  "img": "images/prod-2.jpg"
+},{
+  "_id": {
+    "$oid": "619f4bb81dc0cd8fdbadd236"
+  },
+  "name": "Citadelle",
+  "category": "Rum",
+  "price": 69,
+  "quantity": 80,
+  "manufactured": "CMC",
+  "rate": 100,
+  "sold": 500,
+  "img": "images/prod-3.jpg"
+},{
+  "_id": {
+    "$oid": "619f4bf01dc0cd8fdbadd237"
+  },
+  "name": "The Glenlivet",
+  "category": "Rum",
+  "price": 69,
+  "quantity": 80,
+  "manufactured": "CMC",
+  "rate": 100,
+  "sold": 500,
+  "img": "images/prod-4.jpg"
+},{
+  "_id": {
+    "$oid": "619f4c0d1dc0cd8fdbadd238"
+  },
+  "name": "Black Label",
+  "category": "Whiskey",
+  "price": 69,
+  "quantity": 80,
+  "manufactured": "CMC",
+  "rate": 100,
+  "sold": 500,
+  "img": "images/prod-5.jpg"
+},{
+  "_id": {
+    "$oid": "61a0539efbad515b647db253"
+  },
+  "name": "Macallan",
+  "category": "Tequila",
+  "price": 169,
+  "quantity": 80,
+  "manufactured": "CMC",
+  "rate": 100,
+  "sold": 500,
+  "img": "images/prod-6.jpg"
+},{
+  "_id": {
+    "$oid": "61a053c9fbad515b647db254"
+  },
+  "name": "Old Monk",
+  "category": "Vodka",
+  "price": 100,
+  "quantity": 80,
+  "manufactured": "CMC",
+  "rate": 100,
+  "sold": 1500,
+  "img": "images/prod-7.jpg"
+},{
+  "_id": {
+    "$oid": "61a053e9fbad515b647db255"
+  },
+  "name": "Jameson Irish Whiskey",
+  "category": "Whiskey",
+  "price": 120,
+  "quantity": 80,
+  "manufactured": "CMC",
+  "rate": 100,
+  "sold": 1500,
+  "img": "images/prod-8.jpg"
+},{
+  "_id": {
+    "$oid": "61a0540cfbad515b647db256"
+  },
+  "name": "Screwball",
+  "category": "Whiskey",
+  "price": 125,
+  "quantity": 80,
+  "manufactured": "CMC",
+  "rate": 100,
+  "sold": 1500,
+  "img": "images/prod-9.jpg"
+},{
+  "_id": {
+    "$oid": "61a05446fbad515b647db257"
+  },
+  "name": "Jack Deniels",
+  "category": "Whiskey",
+  "price": 80,
+  "quantity": 80,
+  "manufactured": "CMC",
+  "rate": 100,
+  "sold": 1500,
+  "img": "images/prod-10.jpg"
+},{
+  "_id": {
+    "$oid": "61a054a8fbad515b647db258"
+  },
+  "name": "McClelland's",
+  "category": "Vodka",
+  "price": 80,
+  "quantity": 80,
+  "manufactured": "CMC",
+  "rate": 100,
+  "sold": 1500,
+  "img": "images/prod-11.jpg"
+},{
+  "_id": {
+    "$oid": "61a054ccfbad515b647db259"
+  },
+  "name": "Plantation",
+  "category": "Tequila",
+  "price": 180,
+  "quantity": 80,
+  "manufactured": "CMC",
+  "rate": 100,
+  "sold": 1500,
+  "img": "images/prod-12.jpg"
+}]
