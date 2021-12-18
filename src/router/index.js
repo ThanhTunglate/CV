@@ -5,8 +5,10 @@ const productRouter = require('./productRouter');
 const blogRouter = require('./blogRouter');
 const siteRouter = require('./siteRouter');
 const cartRouter = require('./cartRouter');
+const adminRouter = require('./adminRouter');
 
 function router(app){
+    app.use('/admin', adminRouter);
     app.use('/cart', cartRouter);
     app.use('/cc', siteRouter);
     app.use('/blog', blogRouter);

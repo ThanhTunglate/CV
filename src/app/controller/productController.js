@@ -31,22 +31,8 @@ class productController{
             .catch(next)
     }
 
-    create(req, res, next){
-        res.render('product/create');
-    }
-    
-    //POST
-    store(req, res, next){
-        //res.json(req.body);
-
-        const product = new Product(req.body);
-        product.save()
-            .then(res.redirect('/product'))
-            .catch(err => console.log(err))
-    }
-
     update(req, res, next){
-        Product.find({})
+        Product.findOne({})
             .then()
             .catch(next)
     }

@@ -4,8 +4,7 @@ const ObjectId = Schema.ObjectId;
 
 const Category = new Schema({
   name: {type: String , default: "xxx"},
-  img : {type: String}
-
+  img : {type: String},
 });
 
 module.exports = mongoose.model('Category', Category);
